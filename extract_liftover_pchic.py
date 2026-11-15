@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Reproduce FOXC2 promoter Capture Hi-C extraction and hg19->hg38 liftover.
+"""FOXC2 promoter Capture Hi-C extraction and hg19->hg38 liftover.
 
 Input: Javierre et al. (2016) PCHiC_peak_matrix_cutoff5.txt.gz, hg19.
 The source matrix has 1-based inclusive HindIII fragment coordinates and
