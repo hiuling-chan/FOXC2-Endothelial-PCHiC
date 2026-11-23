@@ -1,7 +1,7 @@
 # FOXC2-Endothelial-PCHiC
 Reproducible analysis of publicly available endothelial precursor promoter capture Hi-C (PCHi-C) data at the FOXC2 locus, including CHiCAGO interaction filtering and conversion from hg19 to hg38 for visualization of long-range chromatin interactions.
 
-#Processed FOXC2 Endothelial Precursor PCHi-C Data
+Processed FOXC2 Endothelial Precursor PCHi-C Data
 
 Contains a locus-specific subset of publicly available human endothelial precursor promoter Capture Hi-C (PCHi-C) interactions from Javierre et al. (2016), converted from GRCh37/hg19 to GRCh38/hg38.
 
@@ -15,7 +15,7 @@ Original data: https://osf.io/u8tzp/
 Source matrix: PCHiC_peak_matrix_cutoff5.txt.gz 
 Original dataset license: Creative Commons Attribution 4.0 International (CC BY 4.0), https://creativecommons.org/licenses/by/4.0/
 
-#Data processing:
+Data processing:
 
 The original matrix contains CHiCAGO interaction scores for 17 cell populations. 
 
