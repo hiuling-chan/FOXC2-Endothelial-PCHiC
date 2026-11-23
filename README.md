@@ -31,6 +31,20 @@ Interaction pairs were reconstructed using their unique identifiers. Original CH
 
 The converted FOXC2 promoter bait is located at: chr16:86558346-86569633
 
+### Running the analysis:
+python extract_liftover_pchic.py \
+  --matrix PCHiC_peak_matrix_cutoff5.txt.gz \
+  --chain hg19ToHg38.over.chain.gz \
+  --outdir results \
+  --bait-id 278067 \
+  --bait-chrom 16 \
+  --cell-column EP \
+  --min-score 5 \
+  --expected-selected 41 \
+  --expected-hg38-bait chr16:86558346-86569633
+
+The original PCHi-C matrix (Javierre et al., 2016) and the UCSC hg19-to-hg38 liftOver chain file must be downloaded separately before running the script.
+
 ## Reproducibility 
 The extraction and coordinate conversion workflow is documented in extract_liftover_pchic.py. The analysis uses previously published CHiCAGO scores. No new interaction calling or sequencing experiments were performed.
 
